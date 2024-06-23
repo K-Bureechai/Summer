@@ -19,15 +19,15 @@
     <div class="weather-app">
         <header>
 
-            <form class="submit-form">
-                <input type="search" placeholder="Enter a city.." required class="enter-a-city" />
+            <form class="submit-form" id="submit-form">
+                <input type="search" placeholder="Enter a city.." required class="enter-a-city" id="enter-a-city" />
                 <input type="submit" value="Search" class="submit-search" />
             </form>
 
         </header>
         <main>
             <div>
-                <h1>Sydney</h1>
+                <h1 id="city">Sydney</h1>
                 <p>Friday 06:38, broken clouds
                     <br />
                     Humidity: <strong>77%</strong> , Wind: <strong>9.77km/h</strong>
@@ -49,6 +49,7 @@
             and <a href="https://may-weather-app.netlify.app/" target="_blank">hosted on Netlify</a>
         </footer>
     </div>
+    <script src="src/app.js"></script>
 </body>
 
 </html>
