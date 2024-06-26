@@ -94,3 +94,6 @@ footer {
 a {
     color: #885DF1;
 }
+#description {
+text-transform: capitalize;
+}
