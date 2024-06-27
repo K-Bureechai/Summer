@@ -67,18 +67,17 @@ main {
     
 }
 .temperature-display {
-    padding-top: 40px;
     align-items: center;
 }
 .weather-icon {
-    font-size: 38px;
-    margin: 5px 10;
     position: relative;
-    top: -10px
+    top: 25px;
+    
 }
 .temperature {
     font-size: 80px;
     font-weight: 600;
+
 }
 .temperature-unit {
     font-size: 30px;
